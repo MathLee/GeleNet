@@ -16,7 +16,7 @@ opt = parser.parse_args()
 dataset_path = './dataset/test_dataset/'
 
 model = GeleNet()
-model.load_state_dict(torch.load('./resaved_model/GeleNet_ors4199.pth'))
+model.load_state_dict(torch.load('./models/GeleNet_ors4199.pth'))
 
 model.cuda()
 model.eval()
