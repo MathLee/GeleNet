@@ -14,7 +14,7 @@ This project provides the code and results for 'Salient Object Detection in Opti
 # Saliency maps
    We provide saliency maps of our GeleNet on three datasets in './GeleNet_saliencymap_PVT.zip' (PVT-v2-b2 backbone) and './GeleNet_saliencymap_SwinT.zip' (Swin Transformer backbone). 
    
-   We also provide saliency maps of [all compared methods](https://pan.baidu.com/s/1-lTle7dISA2LNYbB9RPnPQ) (code: 2892).
+   We also provide saliency maps of [all compared methods](https://pan.baidu.com/s/1-lTle7dISA2LNYbB9RPnPQ) (code: 2892) on three datasets.
       
    ![Image](https://github.com/MathLee/GeleNet/blob/main/images/table.png)
    
