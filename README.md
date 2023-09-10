@@ -1,5 +1,5 @@
 # GeleNet
-This project provides the code and results for 'Salient Object Detection in Optical Remote Sensing Images Driven by Transformer', IEEE TIP, 2023。
+This project provides the code and results for 'Salient Object Detection in Optical Remote Sensing Images Driven by Transformer', IEEE TIP, 2023.
 
 # Network Architecture
    <div align=center>
@@ -20,7 +20,7 @@ This project provides the code and results for 'Salient Object Detection in Opti
 # Training
    We use data_aug.m for data augmentation. 
    
-   Download [pvt_v2_b2.pth](https://pan.baidu.com/s/1U6Bsyhu0ynXckU6EnJM35w) (code: sxiq), and put it in './models/'. 
+   Download [pvt_v2_b2.pth](https://pan.baidu.com/s/1U6Bsyhu0ynXckU6EnJM35w) (code: sxiq), and put it in './model/'. 
    
    Modify paths of datasets, then run train_GeleNet.py.
 
