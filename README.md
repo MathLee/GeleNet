@@ -1,5 +1,5 @@
 # GeleNet
-This project provides the code and results for 'Salient Object Detection in Optical Remote Sensing Images Driven by Transformer', IEEE TIP, 2023.
+This project provides the code and results for 'Salient Object Detection in Optical Remote Sensing Images Driven by Transformer', IEEE TIP, 2023. [arxiv](https://arxiv.org/abs/2309.08206)
 
 # Network Architecture
    <div align=center>
