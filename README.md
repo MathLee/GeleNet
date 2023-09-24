@@ -50,6 +50,7 @@ Note: Our main model is under './model/GeleNet_models.py' (PVT-v2-b2 backbone)
                 title = {Salient Object Detection in Optical Remote Sensing Images Driven by Transformer},
                 journal = {IEEE Transactions on Image Processing},
                 volume= {32},
+                pages={5257-5269},
                 year={2023},
                 doi={10.1109/TIP.2023.3314285},
                 }
