@@ -77,9 +77,13 @@ class SWSAM(nn.Module):
         x = channel_shuffle(x, 4)
         x1, x2, x3, x4 = torch.split(x, 8, dim = 1)
         s1 = self.SA1(x1)
-        s2 = self.SA2(x2)
-        s3 = self.SA3(x3)
-        s4 = self.SA4(x4)
+        s2 = self.SA1(x2)
+        s3 = self.SA1(x3)
+        s4 = self.SA1(x4)
+        #s1 = self.SA1(x1)
+        #s2 = self.SA2(x2)
+        #s3 = self.SA3(x3)
+        #s4 = self.SA4(x4)
         nor_weights = F.softmax(self.weight, dim=0)
         s_all = s1 * nor_weights[0] + s2 * nor_weights[1] + s3 * nor_weights[2] + s4 * nor_weights[3]
         x_out = self.sa_fusion(s_all) * x + x
